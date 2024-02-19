@@ -6,9 +6,16 @@ class Triangle:
       self.base = base
       self.height = height
 
-    def getArea:
-    result = self.base * self.height/2
-    return result
+    def getArea(self):
+      result = self.base * self.height/2
+      return result
 
 t1 = Triangle(4,12)
-print(t1.getArea)
+print(t1.getArea())
+
+t2 = Triangle(8,10)
+print(t2.getArea())
+
+t3 = Triangle(4,10)
+print(t3.getArea())
+
